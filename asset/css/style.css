@@ -1,0 +1,298 @@
+/* FONT-FACE */
+@font-face {
+    font-family:"Roboto Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Roboto Bold";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+
+body{
+    background-color: white;
+    font-family:"Roboto Regular", sans-serif;
+    color: black;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Roboto Bold";
+    
+    
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 0px 60px 20px 10px;
+    
+}
+
+li{
+    padding: 0px 20px 0px 30px;
+    font-size: 20px;
+    font-family:"Roboto Bold";
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+h3{
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 70px -10px -10px -10px;
+    
+    height: 120px;
+    width: 100vw;
+}
+.btn1 {
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    overflow: hidden;
+}
+
+.btn1:hover{
+    color: black;
+    background-color:brown;
+}
+
+.para1{
+    font-size: 25px;
+}
+
+.bord{
+    border-left: 1px solid black;
+
+}
+
+.bord1{
+    border-left: 1px solid white;
+
+}
+
+.liste1{
+    display: flex;
+    flex-direction: row;
+    list-style:none ;
+    
+    
+    justify-content: center;
+    
+
+}
+#logo1{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    /* position: relative; */
+    /* top: 60px;
+    left: 42vw;  */
+}
+
+.section1{
+    background-image: url(../img/new-world-amazon-jeu.jpg);
+    width: 100vw;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 0px 0px -10px;
+    color: white;
+    position: relative;
+   
+    
+
+}
+
+.section2{
+    text-align: center;
+    padding: 10px 300px 10px 300px;
+}
+
+
+.Actu1{
+    border: 1px solid black;
+    display: inline-block;
+    width: 400px;
+    background-color: rgb(58, 53, 53);
+    color: white;
+    margin: 0px 50px 0px 0px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px gray;
+    height: 500px;
+    position: relative;
+    
+
+
+
+
+
+}
+.para2{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.photoactu{
+    width: 400px;
+}
+
+.Actu2{
+    border: 1px solid black;
+    display: inline-block;
+    width: 20vw;
+    background-color: rgb(58, 53, 53);
+    color: white;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px gray;
+    position: relative;
+
+
+
+
+
+}
+
+.Actu3{
+    border: 1px solid black;
+    display: inline-block;
+    width: 20vw;
+    background-color: rgb(58, 53, 53);
+    color: white;
+    margin: 0px 0px 0px 50px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px gray;
+    position: relative;
+
+
+
+
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.logo2{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    padding: 0px 400px 10px 10px ;
+
+}
+
+.liste2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    padding: 0px 100px 0px 0px;
+    
+}
+
+@media screen and (max-width:576px) {
+    h1{
+        font-size: 2rem;
+        
+    }
+
+    h2{
+        font-size: 1rem;
+        
+    }
+
+    .liste1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+        
+        
+    
+    }
+    .bord{
+        border:none;
+        padding: 10px 0px 0px 0px;
+    
+    }
+    .section2{
+        text-align:start;
+        padding: 0px 0px 0px 0px;
+       
+    }
+
+    .para1{
+        font-size: 20px;
+    }
+
+    .btn1{
+     display: flex;
+     justify-content: center;
+     
+
+    }
+
+    .section3{
+        display: flex;
+        flex-wrap: wrap;
+       
+        align-items: center;      
+        
+
+    }
+    .liste2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+        
+        
+    
+    }
+    .bord1{
+        border:none;
+        padding: 20px 0px 0px 0px;
+    
+    }
+    footer{
+        height: 350px;
+    }
+    .logo2{
+        padding: 0px 0px 20px 0px ;
+    }
+    #logo1{
+        display: flex;
+        
+        
+        top: 0px;
+        left: 30px;
+    }
+    
+
+   
+
+
+
+
+
+}
+
+
+
+
